@@ -64,9 +64,16 @@ img {display: block;
     content:'';
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
    
 
+}
+.blueline {
+    padding: 24px 0;
+    position: relative;
+    color: #404BBF;
 }
 
 .header-container { 
@@ -95,7 +102,8 @@ img {display: block;
     
 .menu-item-link {
     padding-top: 24px;
-    padding-bottom: 24px;}
+    padding-bottom: 24px;
+}
 .menu-item-link:hover,
 .menu-item-link:focus,.address-data:hover,.address-data:focus {color: #404BBF;}
 
