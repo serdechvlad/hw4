@@ -103,8 +103,7 @@ img {display: block;
     display: block;
     color: #2E2F42;
     font-weight: 500;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
    }
 .nav-menu {display:flex;
     align-items: center;
@@ -113,6 +112,7 @@ img {display: block;
 .menu-item-link {
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
     
 }
 .menu-item-link:hover,
@@ -210,6 +210,17 @@ img {display: block;
 }
 .items-menu-desc {
     flex-basis: calc((100% - 3 * 24px) / 4)
+}
+.icon-box {
+    height: 112px;
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+        background: #f4f4fd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        
 }
 
 /* our team */
