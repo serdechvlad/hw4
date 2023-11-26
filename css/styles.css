@@ -268,8 +268,10 @@ img {display: block;
     display: flex;
         justify-content: center;
         gap: 24px;
+        
 }
 .icons-list-item {
+    
     width: 40px;
         height: 40px;
         margin: 0;
