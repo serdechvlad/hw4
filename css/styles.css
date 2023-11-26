@@ -143,6 +143,7 @@ img {display: block;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 
 }
 .solution-button {color: #FFF;
